@@ -8,24 +8,41 @@
 </head>
 <body>
 
-    <!-- TODO: Create a link back to the recipe page with an id of "back-link" -->
+    <!-- TODO: Create a link back to the recipe page with an id of "back-link"
+     <a href="../admin/admin-page.html" id="admin-link">Admin</a> -->
+     <a href = " ../recipe/recipe-page.html" id = "back-link">Back</a>
+     
 
     <!-- TODO: Create a heading for the page -->
+     <h1> ingredient List</h1>
 
     <!-- TODO: Create a section to display the list of ingredients -->
+     <section>   
     <!-- - Include an h2 titled "Ingredients" -->
+     <h2>Ingredients</h2>
     <!-- - Include a <ul> with id "ingredient-list" -->
+        <ul id = "ingredient-list"></ul>
+     </section>
 
     <!-- TODO: Create a section to add a new ingredient -->
+     <section>
     <!-- - Include an h2 titled "Add an Ingredient" -->
+     <h2>Add an Ingredient</h2>
     <!-- - Include an input field with id "add-ingredient-name-input" -->
+     <input type ="text" id="add-ingredient-name-input" >
     <!-- - Include a button with id "add-ingredient-submit-button" -->
+     <button type="button" id ="add-ingredient-submit-button">ADD</button>
+     </section>
 
     <!-- TODO: Create a section to delete an ingredient -->
+     <section>
     <!-- - Include an h2 titled "Delete an Ingredient" -->
+     <h2>Delete an Ingredient</h2>
     <!-- - Include an input field with id "delete-ingredient-name-input" -->
+     <input  type = "text" id = "delete-ingredient-name-input"  >
     <!-- - Include a button with id "delete-ingredient-submit-button" -->
-
+     <button type="button" id = "delete-ingredient-submit-button">DELETE</button>
+     </section>
     <script src="ingredient-page.js"></script>
 </body>
 </html>
